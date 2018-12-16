@@ -1,0 +1,91 @@
+footer {
+    text-align: center;
+}
+
+.grey-text {
+    margin-bottom: 3px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgb(219, 219, 219);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#logo-img {
+    margin-top: -6px;
+    margin-left: .5em;
+    max-height: 65px;
+    max-width: 50%;
+}
+
+.jumbotron-fluid {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: none;
+}
+
+.display-4 {
+    margin-top: -50px;
+}
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#getStarted {
+    text-align: center;
+}
+
+#app-instructions1 {
+    margin-top: -30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: -10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav,
+.page-footer {
+    background: red;
+}
+
+.width {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#resultsBlock {
+    display: block;
+}
+
+.rocket { 
+    cursor: pointer; 
+}
+
+#rocketImg img {
+    width: 100%;
+}

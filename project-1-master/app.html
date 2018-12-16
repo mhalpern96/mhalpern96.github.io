@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rocket Launcher - App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/images/editedrocket.png">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <img id="logo-img" src="assets/images/logo.png" alt: "rocket logo">
+            <ul id="nav-mobile" class="right ">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="app.html">App</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <br>
+                    <br>
+                    <br>
+                    <h5 id="app-instructions1">Simply enter a span of time in which you are interested in the rocket launches from across the globe.</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="startDateInput">Enter Start Date</label>
+                            <input type="startDate" class="form-control form-control-lg" id="startDateInput" aria-describedby="" placeholder="YYYY-MM-DD">
+                        </div>
+                        <div class="form-group">
+                            <label for="endDateInput">Enter End Date</label>
+                            <input type="endDate" class="form-control form-control-lg" id="endDateInput" placeholder="YYYY-MM-DD">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitButton">BLAST OFF!</button>
+                    </form>
+                    <br>
+                    <div id="resultsBlock">
+                        <h5>Click on the result you would like to know more about.</h5>
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <span class="card-title">Results:</span>
+                                <div id="display-info-divs">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <h5 class="white-text">Copyright © 2018</h5>
+            <p class="grey-text text-lighten-4">Amanda Ferraro, Evan Morgan, Marcin Paszt, Mark Gillette, and Michael Halpern</p>
+        </div>
+    </footer>
+
+        <script src="assets/javascript/main.js"></script>
+    
+</body>
+</html>

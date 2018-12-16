@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rocket Launcher - Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/images/editedrocket.png">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AuqXjczo8ydtDBM1GtBCIGYoT-TDAFVJo3L3gd1uSa0d_945iloh8MyflZM41ou6' async defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
+
+<body onload="showResults()">
+
+    <nav>
+        <div class="nav-wrapper">
+            <img id="logo-img" src="assets/images/logo.png" alt: "rocket logo">
+            <ul id="nav-mobile" class="right">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="app.html">App</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <div class="col">
+                        <br>
+                        <h2>Rocket Information</h2>
+                        <h5>Mission Name</h5>
+                        <p id="name"></p>
+                        <h5>Launch Date</h5>
+                        <p id="date"></p>
+                        <h5>Launch Location</h5>
+                        <p id="location"></p>
+                        <div id="myMap" style="position:relative;width:100%;height:400px;"></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6">
+                    <br>
+                    <div class="col">
+                        <h5>Rocket Image</h5>
+                        <div id="rocketImg"></div>
+                        <div id="rocketVid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <h5 class="white-text">Copyright © 2018</h5>
+            <p class="grey-text text-lighten-4">Amanda Ferraro, Evan Morgan, Marcin Paszt, Mark Gillette, and Michael Halpern</p>
+        </div>
+    </footer>
+
+    <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>
