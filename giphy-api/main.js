@@ -35,6 +35,7 @@ var xhr = $.get("https://cors.io/?https://api.giphy.com/v1/gifs/search?q="+ name
 xhr.done(function(data){
 //render images
 	data = data.replace(/\"/gi, '');
+	data = JSON.parse(data);
     for (i=0; i < data.data.length; i++){
     var gifDiv = $("<div class='item'>");
    gifDiv.addClass("btn")
