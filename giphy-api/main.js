@@ -1,6 +1,6 @@
 //set topics
 $(document).ready(function(){
-var topics = ["Falcon 9","Atlas V", "HII-A", "OATK Anteres-230", "BO New Sheppard", "Delta IV"];
+var topics = ["Falcon 9","Atlas V", "Delta IV","Space Shuttle"];
 // borrowed from movie buttons example
 function renderButtons(){
 
