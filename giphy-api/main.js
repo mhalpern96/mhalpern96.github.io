@@ -31,7 +31,7 @@ $(document).on("click",'.topic',function(){
 var name = $(this).data("name");
 console.log(name);
 //get images from giphy
-var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+ name + "&api_key=WHqh7w7DEBAvxr73OzKUIhesiCXQiZIR&limit=10");
+var xhr = $.get("http://cors.io/?http://api.giphy.com/v1/gifs/search?q="+ name + "&api_key=WHqh7w7DEBAvxr73OzKUIhesiCXQiZIR&limit=10");
 xhr.done(function(data){
 //render images
     for (i=0; i < data.data.length; i++){
